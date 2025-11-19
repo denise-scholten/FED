@@ -36,15 +36,15 @@ surface plane
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  (https://www.popmart.com/nl)
+https://www.liefmans.com/nl-be/?_gl=1*1igtoi6*_up*MQ..*_ga*MjEzNzY4Nzc5My4xNzYzNDAzOTUw*_ga_ZQVFDW88KX*czE3NjM1NDY2NDYkbzckZzEkdDE3NjM1NDcwMDMkajYwJGwwJGgw*_ga_GNXH6M7BQP*czE3NjM1NDY2NDYkbzQkZzEkdDE3NjM1NDcwMDMkajYwJGwwJGgw
 
   #### Screenshot(s) van de eerste pagina (small screen): 
  home pagina
-  <img src="readme-images/HomePagina.png" width="375px" alt="omschrijving van de pagina">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
 product detail pagina
-  <img src="readme-images/DetailPagina.png" width="375px" alt="omschrijving van de pagina">
+
  
 </details>
 
