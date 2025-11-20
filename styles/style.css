@@ -4,11 +4,109 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+li{
+	list-style-type: none;
+	text-decoration-line: none;
+}
+
+body{
+	margin: 0em;
+	background-color: #FCFCFC;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+	padding-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	min-height: 60px;
+}
 
 
+header img, footer img{
+	height: 3.8em;
+	width: 8.5em;
+}
 
 
+ nav{
+	background-color: red;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	transform: translateY(-100%);
+	transition: 0.5s ease-in-out;
+} 
 
+nav.open{
+	transform: translateY(0);
+}
+
+nav li{
+	list-style-type: none;
+	text-decoration-line: none;
+	display: flex;
+}
+
+
+.intro{
+	margin: 2em;
+	background-color: white;
+	box-shadow: 1em 1em 2em #F5F5F5;
+}
+
+.intro a{
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	padding: 0.6em;
+	border-radius: 0.5em;
+} 
+
+
+.glas {
+	display: flex;
+	flex-direction: row;
+ } 
+
+.glas img:first-of-type{
+	width: 10em;
+	height: 13.5em;
+}
+.glas img:last-of-type{
+	width: 5em;
+	height: 5em;
+}
+
+.fles{
+	width: 7.5em;
+	height: 28em;
+}
+
+.flesjes{
+	display: flex;
+	flex-direction: row;
+}
+
+.OnTheRocks{
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+}
+
+.aporo img,.cocktailCarousel li img, .instaCarousel li img{
+	width: 100%;
+} 
+	
+/* .cocktailCarousel li{
+	list-style-type: none;
+	text-decoration-line: none;
+} */
 
 /*********************/
 /* CUSTOM PROPERTIES */
