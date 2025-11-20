@@ -39,7 +39,7 @@ surface plane
 https://www.liefmans.com/nl-be/?_gl=1*1igtoi6*_up*MQ..*_ga*MjEzNzY4Nzc5My4xNzYzNDAzOTUw*_ga_ZQVFDW88KX*czE3NjM1NDY2NDYkbzckZzEkdDE3NjM1NDcwMDMkajYwJGwwJGgw*_ga_GNXH6M7BQP*czE3NjM1NDY2NDYkbzQkZzEkdDE3NjM1NDcwMDMkajYwJGwwJGgw
 
   #### Screenshot(s) van de eerste pagina (small screen): 
- home pagina
+   <img src="readme-images/breakdown_schets.png" width="375px" alt="breakdown van de hele pagina">
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
@@ -68,13 +68,13 @@ product detail pagina
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown_schets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+beide staan op de eerste afbeelding
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  
 
 </details>
 
