@@ -39,7 +39,7 @@ surface plane
 https://www.liefmans.com/nl-be/?_gl=1*1igtoi6*_up*MQ..*_ga*MjEzNzY4Nzc5My4xNzYzNDAzOTUw*_ga_ZQVFDW88KX*czE3NjM1NDY2NDYkbzckZzEkdDE3NjM1NDcwMDMkajYwJGwwJGgw*_ga_GNXH6M7BQP*czE3NjM1NDY2NDYkbzQkZzEkdDE3NjM1NDcwMDMkajYwJGwwJGgw
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-   <img src="readme-images/breakdown_schets.png" width="375px" alt="breakdown van de hele pagina">
+   <img src="readme-images/pagina_screenshot.jpg" width="375px" alt="screenshot">
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
@@ -57,6 +57,11 @@ product detail pagina
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+    <img src="readme-images/wcag_blz1.jpg" width="375px" alt="wcag checklist">
+       <img src="readme-images/wcag_blz2.jpg" width="375px" alt="wcag checklist">
+          <img src="readme-images/wcag_blz3.jpg" width="375px" alt="wcag checklist">
+             <img src="readme-images/wcag_blz4.jpg" width="375px" alt="wcag checklist">
+                <img src="readme-images/wcag_blz5.jpg" width="375px" alt="wcag checklist">
 
 </details>
 
