@@ -5,8 +5,8 @@ console.log("hi");
 const menu = document.getElementById("menu");
 const nav = document.querySelector("nav");
 
-const openBtn = document.getElementById("MenuOpen");
-const closeBtn = document.getElementById("MenuSluiten");
+const openBtn = document.querySelector("header button");
+const closeBtn = document.querySelector("nav button");
 
 // Menu openen
 

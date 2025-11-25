@@ -4,6 +4,42 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+
+
+/**************/
+/* fonds */
+/**************/
+
+p{
+	font-family: "omnes-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2{
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+    line-height: 1.15;
+    margin: 0 0 0.9rem;
+    text-transform: uppercase;
+}
+
+a, h3{
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 1000;
+    letter-spacing: 1.3px;
+    line-height: 1.15;
+    margin: 0 0 0.9rem;
+    text-transform: uppercase;
+}
+
+/**************/
+/* einde fonds */
+/**************/
+
 li{
 	list-style-type: none;
 	text-decoration-line: none;
@@ -12,7 +48,6 @@ li{
 body{
 	margin: 0em;
 	background-color: #FCFCFC;
-;
 }
 
 header{
@@ -27,52 +62,96 @@ header{
 }
 
 
-header img{
+header img, footer img{
 	height: 3.8em;
 	width: 8.5em;
 }
 
+ /* nav.open{
+	height: 100vh;
+}
 
-/* nav{
+ nav{
 	background-color: red;
 	position: fixed;
-	top: 60px;
 	left: 0;
-	height: 100vh;
 	width: 100%;
-	transform: translateY(-100%);
-	transition: 0.5s ease-in-out;
-} */
-
-nav.open{
-	transform: translateY(0);
-}
+	top:6rem;
+} 
 
 nav li{
 	list-style-type: none;
 	text-decoration-line: none;
 	display: flex;
-}
+} */
 
+
+/***************/
+/* Introductie */
+/***************/
 
 .intro{
 	margin: 2em;
 	background-color: white;
-	box-shadow: 1em 1em 2em #F5F5F5;
+	box-shadow: 0 5px 20px rgba(75, 75, 75, 0.08);
 }
 
-.intro a{
-	background-color: red;
+.intro p{
+	padding: 1.5em;
+}
+.introVideo {
+position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* maakt de container perfect vierkant */
+  overflow: hidden; /* crop */
+}
+
+.introVideo video{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 0;  /* onder de tekst */
+
+}
+
+.videoContent {
+  position: absolute;
+  bottom: 10%;          /* net zoals op Liefmans */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;           /* boven video */
+  text-align: center;
+  color: white;
+  width: 90%;
+}
+
+a{
+	background-color:#D2060D;
 	text-decoration: none;
 	color: white;
-	padding: 0.6em;
+	padding: 0.75rem 1.1rem 0.75rem 2.2rem;
 	border-radius: 0.5em;
+	width: 11em;
+	margin-left: 1.5em;
 } 
 
+.intro a{
+	box-shadow: 0 7px 20px 0 rgba(97, 0, 3, 0.28);
+}
+
+/*********************/
+/* einde introductie */
+/*********************/
 
 .glas {
 	display: flex;
 	flex-direction: row;
+	justify-content: end;
+	margin-right: 1em;
  } 
 
 .glas img:first-of-type{
@@ -82,6 +161,8 @@ nav li{
 .glas img:last-of-type{
 	width: 5em;
 	height: 5em;
+	margin-top: 4em;
+	margin-left: 0.4em;
 }
 
 .fles{
@@ -92,6 +173,19 @@ nav li{
 .flesjes{
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+}
+
+
+
+img[alt="flesje-fruitesse"], img[alt="flesje-peach"]{
+	transform: rotate(10deg);
+	margin-right: 1em;
+}
+
+img[alt="flesje-fruitesse0.0"], img[alt="flesje-peach0.0"]{
+	transform: rotate(-10deg);
+	margin-right: 1em;
 }
 
 .OnTheRocks{
@@ -100,14 +194,26 @@ nav li{
 	padding-left: 1em;
 }
 
-.aporo img,.cocktailCarousel img{
+/*********************/
+/* aporo o'clock*/
+/*********************/
+
+.aporo img,.cocktailCarousel li img, .instaCarousel li img{
 	width: 100%;
 } 
+
+[alt="0.0 glas"]{
+	z-index: 1;
+}
 	
-/* .cocktailCarousel li{
-	list-style-type: none;
-	text-decoration-line: none;
-} */
+.aporoBlok{
+	margin: 2em;
+	padding: 1em;
+	background-color: white;
+	box-shadow: 0 5px 20px rgba(75, 75, 75, 0.08);
+	z-index: 2;
+}
+
 
 /*********************/
 /* CUSTOM PROPERTIES */

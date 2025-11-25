@@ -8,18 +8,21 @@
 	<title>Howdy FED2526</title>
 
 	<link href="styles/style.css" rel="stylesheet">
-
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+	<link rel="stylesheet" href="https://use.typekit.net/iui8krl.css">
+	<link rel="stylesheet" href="https://use.typekit.net/njl6cxy.css">
+	<link rel="stylesheet" href="https://use.typekit.net/xqq2giv.css">
 </head>
 
 <body>
 	<header>
 		<p> NL</p>
 		<img src="images/logo.png" alt="logo liefmans">
-		<button id="MenuOpen"> Menu </button>  <!--change text into in java naar sluiten ipv menu-->
+		<button> Menu </button>  <!--change text into in java naar sluiten ipv menu-->
 
 		<nav>
-			<button id="MenuSluiten"> Sluiten </button>
+			<button> Sluiten </button>
 			<ul id="menu" hidden>
 				<li> <a href="#" > on the rocks </a></li>
 				<li> <a href="#" > on the rocks 0.0 </a></li>
@@ -34,8 +37,18 @@
 
 	</header>
 
-
+<!-- heading toevoegen-->
 	<main>
+
+		<section class="introVideo">
+			<video controls autoplay src="videos/Liefmans_video.mp4" alt="video liefmans reclame">
+			</video>
+
+			<div class="videoContent">
+				<h1>live life on the rocks</h1>
+				<h2>met liefmans 0.0</h2>
+			</div>
+		</section>
 
 		<section class="intro">
 			<p>
@@ -53,8 +66,8 @@
 
 		<section class="flesjes">
 			<div class="OnTheRocks">
-				<h3> sprankelend aperolbier</h3>
 				<h2> liefmans on the rocks</h2>
+				<h3> sprankelend aperolbier</h3>
 				<p> Zalig doordrinkbaar, verfrissend aperobier. 
 					Met Liefmans On The Rocks geef je smaak aan je apéromoment. 
 					Serveren doe je in het speelse glas, altijd On The Rocks 
@@ -75,7 +88,7 @@
 				</p>
 				<a href="#"> Meer info</a>
 			</div>
-				<img src="images/flesje-nul.webp" class="fles" alt="flesje-fruitesse">
+				<img src="images/flesje-nul.webp" class="fles" alt="flesje-fruitesse0.0">
 		</section>
 
 		<section class="flesjes">
@@ -88,7 +101,7 @@
 				</p>
 				<a href="#"> Meer info</a>
 			</div>
-				<img src="images/flesje-peach.webp" class="fles" alt="flesje-fruitesse">
+				<img src="images/flesje-peach.webp" class="fles" alt="flesje-peach">
 		</section>
 
 		<section class="flesjes">
@@ -102,7 +115,7 @@
 				</p>
 				<a href="#"> Meer info</a>
 			</div>
-				<img src="images/flesje-peach-nul" class="fles" alt="flesje-fruitesse">
+				<img src="images/flesje-peach-nul" class="fles" alt="flesje-peach0.0">
 		</section>
 
  <!-- heading  aporo o'clock!--> 
@@ -125,15 +138,20 @@
 
 		<section class="aporo">
 			<img src="images/Aporo_0.0.png" alt="0.0 glas">
-			<h3> On the rocks glas</h3>
-			<h2> Stijlvol en bordevol smaak</h2>
-			<p> Let the good times roll! Ingrediënten voor de leukste apero? 
+
+			<div class="aporoBlok">
+				<h3> On the rocks glas</h3>
+				<h2> Stijlvol en bordevol smaak</h2>
+				<p> Let the good times roll! Ingrediënten voor de leukste apero? 
 				Je beste vrienden, het lekkerste apérobier en het unieke 
 				Liefmans-glas. Met je glas boordevol ijs geniet je gegarandeerd van 
 				een perfect On The Rocks moment. Cheers!
-			</p>
-			<a href="index.html"> Naar de shop </a>
+				</p>
+				<a href="index.html"> Naar de shop </a>
+			</div>
 		</section>
+
+			<!-- Carousels-->
 
 		<section class="cocktailCarousel">
 			<h3>perfecte partner voor</h3>
@@ -145,6 +163,8 @@
 			</p>
 			<button> links </button>
 			<button> rechts </button>
+
+			<!-- alt ff uitbreiden-->
 			<ul>
 				<li> <img src="images/cocktail_1.jpg" alt=" cocktail"></li>
 				<li> <img src="images/cocktail_2.jpg" alt=" cocktail"></li>
@@ -154,7 +174,7 @@
 		</section>
 
 		<section class="instaCarousel">
-			<img src="images/instagram.svg">
+			<img src="images/instagram.svg" >
 			<p>#liefmans</p>
 			<ul>
 				<li> <img src="images/carousel1.webp"> </li>
@@ -171,6 +191,24 @@
 
 	<footer>
 		<img src="images/logo.png" alt="">
+		<section>
+			<h2>Sprankelend apero bier </h2>
+			<ul>
+				<li> <a href="#"> Liefmans on the rocks</a></li>
+				<li> <a href="#"> Liefmans on the rocks0.0</a></li>
+				<li> <a href="#"> Liefmans peach</a></li>
+				<li> <a href="#"> Liefmans peach o.o</a></li>
+			</ul>
+		</section>
+		<section>
+			<h2>inspiratie</h2>
+			<a href="#"> cocktails & mocktails</a>
+		</section>
+
+		<section>
+			<h2>contacteer ons</h2>
+			<a href="#"> contact </a>
+		</section>
 	</footer>
 		<script defer src="scripts/script.js"></script>
 
