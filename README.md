@@ -53,7 +53,8 @@ product detail pagina
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>Over het algemeen komt de website goed uit de test en voeldoet het aan heel veel eisen. Het enige wat er ontbreekt
+  op de site van liefmans is een darke mode, en een werkende carousel. In de code hebben niet alle images een alt atribute en de video die ze gebruiken op de home pagina kan niet op pauze worden gezet. </summary>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
@@ -109,11 +110,8 @@ beide staan op de eerste afbeelding
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Zorgen dat je html elementen in de juiste volgorde staan.
+  - zorgen dat elk alt tekst anders is. 
 </details>
 
 
